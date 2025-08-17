@@ -39,7 +39,13 @@ An iOS advertising aggregation SDK
 #    'jihuoniao_target_ads' => ['SDK/jihuoniao_target_ads.bundle/**/*']
 #  }
    s.resources  = ['SDK/**/*.bundle']
-
+    
+   s.pod_target_xcconfig = {
+  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
+}
+   s.user_target_xcconfig = {
+  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
+  }
   
 #   s.resource_bundles = {
 #    'podTestOne' => ['podTestOne/Assets/*.png']
@@ -54,10 +60,11 @@ An iOS advertising aggregation SDK
   'MobileCoreServices','QuickLook','SafariServices','Security','StoreKit','UIKit',
   'WebKit','SystemConfiguration','QuartzCore','SwiftUI','CoreServices','AssetsLibrary',
   'Photos','CoreMedia','MapKit','CoreImage'
- ]
+  ]
 
   s.libraries = 'bz2', 'c++', 'iconv', 'resolv.9', 'sqlite3', 'xml2', 'z', 'c++abi'
   s.dependency 'WechatOpenSDK'
+ 
   s.dependency 'Ads-CN-Beta'
   s.dependency 'BaiduMobAdSDK'
   s.dependency 'GDTMobSDK'
@@ -65,7 +72,11 @@ An iOS advertising aggregation SDK
   s.dependency 'BeiZiSDK-iOS/BeiZiSDK-iOS'
   s.dependency 'JADYun'
   s.dependency 'TanxSDK'
-  
+
+
+ 
+
+
   s.pod_target_xcconfig = {
   'OTHER_LDFLAGS' => '-ObjC -all_load -l"z" -l"sqlite3" -l"c++" -l"c++abi"'
   }
