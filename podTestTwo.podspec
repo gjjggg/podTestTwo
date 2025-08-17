@@ -51,6 +51,13 @@ TODO: Add long description of the pod here.
 
   s.libraries = 'bz2', 'c++', 'iconv', 'resolv.9', 'sqlite3', 'xml2', 'z', 'c++abi'
   s.dependency 'WechatOpenSDK'
+  s.dependency 'Ads-CN-Beta'
+  s.dependency 'BaiduMobAdSDK'
+  s.dependency 'GDTMobSDK'
+  s.dependency 'KSAdSDK'
+  s.dependency 'BeiZiSDK-iOS/BeiZiSDK-iOS'
+  s.dependency 'JADYun'
+  s.dependency 'TanxSDK'
   
   s.pod_target_xcconfig = {
   'OTHER_LDFLAGS' => '-ObjC -all_load -l"z" -l"sqlite3" -l"c++" -l"c++abi"'
