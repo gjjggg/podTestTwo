@@ -58,9 +58,7 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FB63A651EE6BC2EBF8A71BA2BC36F41 /* Pods-podTestTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTestTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A90F5EC2C599EC2F4A490E612143E08A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		AD5B612F199512865428487D7425C614 /* Pods_podTestTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podTestTwo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C653A307329E1B17337E29048DCD995E /* Pods-podTestTwo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-podTestTwo_Example-umbrella.h"; sourceTree = "<group>"; };
-		CFED55484F7554748094776C35A3B109 /* Pods_podTestTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podTestTwo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EB1D58DEE60453D376020E5979A6A7 /* Pods-podTestTwo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTestTwo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DCBFE440C570D41DCD77956FAA7DFAD9 /* podTestTwo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = podTestTwo.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		DD291B4545BA938C24B5453ADA605252 /* Pods-podTestTwo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-podTestTwo_Example.modulemap"; sourceTree = "<group>"; };
@@ -178,8 +176,6 @@
 		BE49AB283BD93C85FDC824AA503D08C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD5B612F199512865428487D7425C614 /* Pods_podTestTwo_Example.framework */,
-				CFED55484F7554748094776C35A3B109 /* Pods_podTestTwo_Tests.framework */,
 				E4F6FEFBA2EB56B8073F42A0AED8B5F4 /* podTestTwo.framework */,
 			);
 			name = Products;
@@ -269,7 +265,6 @@
 			);
 			name = "Pods-podTestTwo_Tests";
 			productName = Pods_podTestTwo_Tests;
-			productReference = CFED55484F7554748094776C35A3B109 /* Pods_podTestTwo_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		321DEA9276FE645B224FECA1BBC47E75 /* podTestTwo */ = {
@@ -306,7 +301,6 @@
 			);
 			name = "Pods-podTestTwo_Example";
 			productName = Pods_podTestTwo_Example;
-			productReference = AD5B612F199512865428487D7425C614 /* Pods_podTestTwo_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -318,7 +312,7 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -758,7 +752,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,

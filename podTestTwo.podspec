@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'podTestTwo'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of podTestOne.'
+  s.summary          = 'An iOS advertising aggregation SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+An iOS advertising aggregation SDK
                        DESC
 
   s.homepage         = 'https://github.com/gjjggg/podTestTwo'
@@ -32,8 +32,8 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   s.requires_arc    = true
 
-  s.source_files = 'podTestOne/Classes/**/*.{h,m}'
-  s.vendored_frameworks = 'SDK/jihuoniao_target_ads.framework'
+  s.source_files = 'podTestTwo/Classes/**/*.{h,m}'
+  s.vendored_frameworks = 'SDK/jihuoniao_aggregation_ads.framework'
 #  s.resources = ['SDK/jihuoniao_target_ads.bundle']
 #  s.resource_bundles = {
 #    'jihuoniao_target_ads' => ['SDK/jihuoniao_target_ads.bundle/**/*']
@@ -46,8 +46,15 @@ TODO: Add long description of the pod here.
 #  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks =
-  'Accelerate','AddressBook','AdSupport','AppTrackingTransparency','AudioToolbox','AVFoundation','AVKit','CoreData','CFNetwork','CoreFoundation','CoreGraphics','CoreMotion','CoreML','CoreHaptics','CoreTelephony','CoreText','CoreLocation','DeviceCheck','Foundation','ImageIO','JavaScriptCore','MediaPlayer','MessageUI','MobileCoreServices','QuickLook','SafariServices','Security','StoreKit','UIKit','WebKit','SystemConfiguration','QuartzCore','SwiftUI','CoreServices','AssetsLibrary','Photos','ImageIO','CoreMedia','CoreText','MapKit','CoreImage','AppTrackingTransparency',
+  s.frameworks = [
+  'Accelerate','AddressBook','AdSupport','AppTrackingTransparency','AudioToolbox',
+  'AVFoundation','AVKit','CoreData','CFNetwork','CoreFoundation','CoreGraphics',
+  'CoreMotion','CoreML','CoreHaptics','CoreTelephony','CoreText','CoreLocation',
+  'DeviceCheck','Foundation','ImageIO','JavaScriptCore','MediaPlayer','MessageUI',
+  'MobileCoreServices','QuickLook','SafariServices','Security','StoreKit','UIKit',
+  'WebKit','SystemConfiguration','QuartzCore','SwiftUI','CoreServices','AssetsLibrary',
+  'Photos','CoreMedia','MapKit','CoreImage'
+ ]
 
   s.libraries = 'bz2', 'c++', 'iconv', 'resolv.9', 'sqlite3', 'xml2', 'z', 'c++abi'
   s.dependency 'WechatOpenSDK'
