@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'podTestTwo'
-  s.version          = '0.0.1'
-  s.summary          = 'An iOS advertising aggregation SDK'
+  s.name             = 'podTestTwoCuTwo'
+  s.version          = '0.0.2'
+  s.summary          = 'an adSDK for media'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-An iOS advertising aggregation SDK
+  is a product provided by Alibaba Group
                        DESC
 
   s.homepage         = 'https://github.com/gjjggg/podTestTwo'
@@ -28,30 +28,10 @@ An iOS advertising aggregation SDK
   s.source           = { :git => 'https://github.com/gjjggg/podTestTwo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  
   s.ios.deployment_target = '12.0'
   s.static_framework = true
   s.requires_arc    = true
-
-  s.source_files = 'podTestTwo/Classes/**/*.{h,m}'
-  s.vendored_frameworks = 'SDK/jihuoniao_aggregation_ads.framework'
-#  s.resources = ['SDK/jihuoniao_target_ads.bundle']
-#  s.resource_bundles = {
-#    'jihuoniao_target_ads' => ['SDK/jihuoniao_target_ads.bundle/**/*']
-#  }
-   s.resources  = ['SDK/**/*.bundle']
-    
-   s.pod_target_xcconfig = {
-  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
-}
-   s.user_target_xcconfig = {
-  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
-  }
-  
-#   s.resource_bundles = {
-#    'podTestOne' => ['podTestOne/Assets/*.png']
-#  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = [
   'Accelerate','AddressBook','AdSupport','AppTrackingTransparency','AudioToolbox',
   'AVFoundation','AVKit','CoreData','CFNetwork','CoreFoundation','CoreGraphics',
@@ -62,24 +42,45 @@ An iOS advertising aggregation SDK
   'Photos','CoreMedia','MapKit','CoreImage'
   ]
 
+  
+  
+  s.pod_target_xcconfig = {
+#    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+#    //TANX
+     "VALID_ARCHS": "x86_64 armv7 armv7s arm64",
+#     "VALID_ARCHS": "arm64",
+    'OTHER_LDFLAGS' => '-ObjC -lz -lsqlite3 -lc++'
+   }
+
+
+
+  
   s.libraries = 'bz2', 'c++', 'iconv', 'resolv.9', 'sqlite3', 'xml2', 'z', 'c++abi'
+  
+  s.resources  = ['SDK/**/*.bundle']
+  
+
+  s.source_files = 'podTestTwo/Classes/**/*.{h,m}'
+  s.vendored_frameworks = 'SDK/jihuoniao_aggregation_ads.framework'
+
+  
   s.dependency 'WechatOpenSDK'
- 
-  s.dependency 'Ads-CN-Beta'
+  s.dependency 'TanxSDK'
+  s.dependency 'Ads-CN-Beta/BUAdSDK'
+  s.dependency 'Ads-CN-Beta/CSJMediation'
+  
   s.dependency 'BaiduMobAdSDK'
   s.dependency 'GDTMobSDK'
   s.dependency 'KSAdSDK'
   s.dependency 'BeiZiSDK-iOS/BeiZiSDK-iOS'
   s.dependency 'JADYun'
-  s.dependency 'TanxSDK'
+
 
 
  
 
 
-  s.pod_target_xcconfig = {
-  'OTHER_LDFLAGS' => '-ObjC -all_load -l"z" -l"sqlite3" -l"c++" -l"c++abi"'
-  }
+  
 end
  
 
