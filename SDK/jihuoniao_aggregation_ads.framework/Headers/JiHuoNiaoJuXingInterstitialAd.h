@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <jihuoniao_aggregation_ads/JiHuoNiaoServerBiddingResultModel.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 @class JiHuoNiaoJuXingInterstitialAd;
@@ -49,7 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*
  加载成功后直接显示
  */
-- (void)jiHuoNiaoHZLoadAd;
+- (void)jiHuoNiaoHZLoadAd:(UIViewController *)viewController;
 
 /*
  加载广告
@@ -59,7 +60,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*
  显示
  */
-- (void)jiHuoNiaoHZOnlyShow;
+- (void)jiHuoNiaoHZOnlyShow:(UIViewController *)viewController;
 
 /**
  返回广告的eCPM，单位：分

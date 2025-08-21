@@ -54,7 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*
  加载成功后直接显示
  */
-- (void)jiHuoNiaoHZLoadAd;
+- (void)jiHuoNiaoHZLoadAd:(UIWindow *)window;
 
 /*
  加载广告
@@ -64,7 +64,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*
  显示
  */
-- (void)jiHuoNiaoHZOnlyShow;
+- (void)jiHuoNiaoHZOnlyShow:(UIWindow *)window;
 /**
  返回广告的eCPM，单位：分
  
