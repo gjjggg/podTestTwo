@@ -39,6 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface JiHuoNiaoJuXingSplashAd : NSObject
+@property(nonatomic, strong) id  buadSplashAD;
 @property(nonatomic,assign)NSInteger code;
 @property(nonatomic,weak) id<JiHuoNiaoJuXingSplashAdDelegate> delegate;
 /*
@@ -54,7 +55,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*
  加载成功后直接显示
  */
-- (void)jiHuoNiaoHZLoadAd:(UIWindow *)window;
+- (void)jiHuoNiaoHZLoadAd:(UIWindow *)window withVC:(UIViewController *)rootVC;
 
 /*
  加载广告
@@ -64,7 +65,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*
  显示
  */
-- (void)jiHuoNiaoHZOnlyShow:(UIWindow *)window;
+- (void)jiHuoNiaoHZOnlyShow:(UIWindow *)window withVC:(UIViewController *)rootVC;
 /**
  返回广告的eCPM，单位：分
  

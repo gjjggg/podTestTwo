@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'podTestTwoCuTwo'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'an adSDK for media'
 
 # This description is used to generate tags and improve search results.
@@ -66,8 +66,8 @@ Pod::Spec.new do |s|
   
   s.dependency 'WechatOpenSDK'
   s.dependency 'TanxSDK'
-  s.dependency 'Ads-CN-Beta/BUAdSDK'
-  s.dependency 'Ads-CN-Beta/CSJMediation'
+  s.dependency 'Ads-CN/BUAdSDK'
+  s.dependency 'Ads-CN/CSJMediation'
   
   s.dependency 'BaiduMobAdSDK'
   s.dependency 'GDTMobSDK'

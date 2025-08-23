@@ -47,6 +47,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface JiHuoNiaoJuXingRewardAd : NSObject
+@property(nonatomic, strong) id  buadRewardAd;
 
 @property(nonatomic,weak) id<JiHuoNiaoJuXingRewardAdDelegate> delegate;
 //媒体用户id

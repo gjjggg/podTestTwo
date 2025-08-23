@@ -323,7 +323,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/image_assets.json</key>
 		<data>
-		1NOILQatbZ0f57NnC3BSokUvrJ4=
+		/5uVpY+9lZYxdf8asLfRkwicqcM=
 		</data>
 		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
 		<dict>
@@ -389,7 +389,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		mGXEzsYDjSIU7Kt5P1gAgqFyziI=
+		pOS3nwpwLGzdF+zGptKIySfGNX8=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -423,15 +423,15 @@
 		</data>
 		<key>Headers/JiHuoNiaoJuXingInterstitialAd.h</key>
 		<data>
-		scu39gjiP5pL7RE8KWmVF0a/v50=
+		pSI/PXEcVaJC0xWF3gmSnOmzIFI=
 		</data>
 		<key>Headers/JiHuoNiaoJuXingRewardAd.h</key>
 		<data>
-		znazZaJjCsAjdvwe3+/RV7BYkRM=
+		QPLtj9o4LG8RbD1Qn3b0o/A41pg=
 		</data>
 		<key>Headers/JiHuoNiaoJuXingSplashAd.h</key>
 		<data>
-		d7f2+ErsRGrLU7VoBenobAnMq0U=
+		FlAIWgswmjN2LMgnPq3FsXRKj7E=
 		</data>
 		<key>Headers/JiHuoNiaoSDKConfiguration.h</key>
 		<data>
@@ -540,6 +540,10 @@
 		<key>TanxID.bundle/white_close_icon.png</key>
 		<data>
 		ioQ0vJsmaSEPopaBoJuoxHmbZKw=
+		</data>
+		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		f7tABLrB9oK2NQF1kNJvG+RR3gc=
 		</data>
 		<key>baidumobadsdk.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -1068,6 +1072,10 @@
 		<key>jihuoniao_target_ads.bundle/jihuoniao_shouzhi_dianjiIcon.png</key>
 		<data>
 		ECNl1wuvN9wuG0LIldqC3kN8Rpk=
+		</data>
+		<key>ttplayer.metallib</key>
+		<data>
+		ADLHpACALRgTq1buVTKjHWrPsXk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1936,11 +1944,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1NOILQatbZ0f57NnC3BSokUvrJ4=
+			/5uVpY+9lZYxdf8asLfRkwicqcM=
 			</data>
 			<key>hash2</key>
 			<data>
-			QEdDslvZbP4I5lHP1NIBR51MtM2enwshApMXUtv8eJs=
+			fEFQMUuHScRxgdE9MaLc2W2aqqdyFA1fWRuiSSsotG4=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
@@ -2094,11 +2102,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mGXEzsYDjSIU7Kt5P1gAgqFyziI=
+			pOS3nwpwLGzdF+zGptKIySfGNX8=
 			</data>
 			<key>hash2</key>
 			<data>
-			g6dvGjV89duwtJprwMooNT7A7Q69AXb1BFB4N9NXzCQ=
+			w/viCH/3Ji1g6TZoLMA04EAG138vlts/HgEIWfSWd0E=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -2164,33 +2172,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			scu39gjiP5pL7RE8KWmVF0a/v50=
+			pSI/PXEcVaJC0xWF3gmSnOmzIFI=
 			</data>
 			<key>hash2</key>
 			<data>
-			4HYULMDEhsh1DNy/XTM+OtVlBT+yQGB7NJr8hcoU9VQ=
+			ud6JS+P4+q//LZ0V0lyagoZE/fUaRsFLjdqqWgEuEh0=
 			</data>
 		</dict>
 		<key>Headers/JiHuoNiaoJuXingRewardAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			znazZaJjCsAjdvwe3+/RV7BYkRM=
+			QPLtj9o4LG8RbD1Qn3b0o/A41pg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hhFsWAj8D5r4GGecNTaZWECh7B9yVKNYmcoyun7cdY0=
+			SGoYOZMMw4NC+K8JwwmVgLl01HMTMNqUueu1s/eS2KA=
 			</data>
 		</dict>
 		<key>Headers/JiHuoNiaoJuXingSplashAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d7f2+ErsRGrLU7VoBenobAnMq0U=
+			FlAIWgswmjN2LMgnPq3FsXRKj7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			wg8Kwgm+DT34CSbv665hU8Zdljq0UcRqlWrxs4UxHUc=
+			URD8v5Yp3zgIJQQHuXKXmRGU+WxCztJzDoKrMlT3SXM=
 			</data>
 		</dict>
 		<key>Headers/JiHuoNiaoSDKConfiguration.h</key>
@@ -2477,6 +2485,17 @@
 			<key>hash2</key>
 			<data>
 			FlgwWeVjNNWTmmHogCh7qaEeo7JCkM+ZoLftRj8EUrY=
+			</data>
+		</dict>
+		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f7tABLrB9oK2NQF1kNJvG+RR3gc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q3VRH0z1+tx2WuPB5YpySUWeeN8GH1ZVQOG2AWloBtU=
 			</data>
 		</dict>
 		<key>baidumobadsdk.bundle/PrivacyInfo.xcprivacy</key>
@@ -3929,6 +3948,17 @@
 			<key>hash2</key>
 			<data>
 			ubDeuILqIgwHDKXMSn3V8n6tZV6bltHEqH3xnLNyw5Q=
+			</data>
+		</dict>
+		<key>ttplayer.metallib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ADLHpACALRgTq1buVTKjHWrPsXk=
+			</data>
+			<key>hash2</key>
+			<data>
+			9ICUAM/ryJakLbkqgmVoKepYMUELT73Ynad3RJlhvik=
 			</data>
 		</dict>
 	</dict>

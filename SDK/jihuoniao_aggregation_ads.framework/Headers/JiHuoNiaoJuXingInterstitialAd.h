@@ -40,6 +40,8 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface JiHuoNiaoJuXingInterstitialAd : NSObject
+@property(nonatomic, strong) id  buadInterstitialAD;
+
 @property(nonatomic,weak) id<JiHuoNiaoJuXingInterstitialAdDelegate> delegate;
 /*
  广告位id
